@@ -20,7 +20,7 @@ const Login = ()=>{
      const login = async (e)=>{
         e.preventDefault();
         const {email , password } = user;
-        const res = await fetch("http://localhost:4000/login", {
+        const res = await fetch("https://backend-node-app.herokuapp.com/login", {
           method:"POST",
           headers:{"Content-Type" : "application/json"},
           body:JSON.stringify({

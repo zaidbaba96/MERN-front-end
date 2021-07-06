@@ -10,7 +10,7 @@ const Contact = ()=>{
         const userContract = async () => {
     
             try{
-                const res = await fetch('http://localhost:4000/getdata',{
+                const res = await fetch('https://backend-node-app.herokuapp.com/getdata',{
                    // mode:"no-cors",
                     method:"GET",
                     headers:{
@@ -59,7 +59,7 @@ const Contact = ()=>{
             e.preventDefault();
 
             const{name, email , phone , message} = userData;
-            const res =fetch('http://localhost:4000/contactUS',{
+            const res =fetch('hhttps://backend-node-app.herokuapp.com/contactUS',{
                 // mode:"no-cors",
                  method:"POST",
                  headers:{"Content-Type" : "application/json"},

@@ -13,7 +13,7 @@ const About = ()=>{
     const callAboutPage = async () => {
 
         try{
-            const res = await fetch('http://localhost:4000/about',{
+            const res = await fetch('https://backend-node-app.herokuapp.com/about',{
                // mode:"no-cors",
                 method:"GET",
                 headers:{

@@ -9,7 +9,7 @@ const Home = ()=>{
         const callAboutPage = async () => {
     
             try{
-                const res = await fetch('http://localhost:4000/getdata',{
+                const res = await fetch('https://backend-node-app.herokuapp.com/getdata',{
                    // mode:"no-cors",
                     method:"GET",
                     headers:{
