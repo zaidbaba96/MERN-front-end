@@ -2,9 +2,6 @@
 .home-page{
     height: 700px;
     background: linear-gradient(90deg, #cedce2 50%, #f9fcfc 50%);
-  }
-
-  body{
     overflow: hidden !important;
   }
 
